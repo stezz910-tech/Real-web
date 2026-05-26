@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | STEWAARD ROBSON [STEAZ14]</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: rgba(44, 62, 80, 0.9);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            backdrop-filter: blur(10px);
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem 2rem;
+            text-align: center;
+            color: white;
+        }
+        .end-icon {
+            font-size: 5rem;
+            color: #2ecc71;
+            margin-bottom: 2rem;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .container h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        .container p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            line-height: 1.8;
+            margin-bottom: 2.5rem;
+            opacity: 0.95;
+        }
+        .signature {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #f1c40f;
+            margin-bottom: 3rem;
+            font-style: italic;
+        }
+        .btn-group {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .back-btn, .home-btn {
+            padding: 0.9rem 2rem;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .back-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid white;
+        }
+        .back-btn:hover {
+            background: white;
+            color: #667eea;
+            transform: translateY(-3px);
+        }
+        .home-btn {
+            background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+        }
+        .home-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4);
+        }
+        footer {
+            background: rgba(44, 62, 80, 0.9);
+            color: white;
+            text-align: center;
+            padding: 1.2rem;
+            backdrop-filter: blur(10px);
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        STEWAARD ROBSON [STEAZ14]
+    </header>
+
+    <div class="container">
+        <div class="end-icon">✅</div>
+        <h2>Thank You For Visiting!</h2>
+        <p>You have successfully explored all sections of this platform — from learning Python programming, reading touching emotional quotes, to discovering smart ways to pass your exams. Keep learning, keep growing, and always believe in yourself.</p>
+        <div class="signature">— RWOTHOMIO STEWAARD ROBSON</div>
+
+        <div class="btn-group">
+            <a href="dashboard.html" class="back-btn">← Go Back</a>
+            <a href="index.html" class="home-btn">Back to Registration</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Email: stewaardr@gmail.com | Phone: 0768541864</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional Quotes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(120deg, #fce4ec 0%, #f3e5f5 100%);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #7b1fa2 100%);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .container {
+            flex: 1;
+            padding: 3rem 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .page-heading {
+            text-align: center;
+            color: #4a148c;
+            margin-bottom: 2.5rem;
+            font-size: 2rem;
+        }
+        .quote-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(156, 39, 176, 0.12);
+            margin-bottom: 2rem;
+            border-left: 5px solid #9c27b0;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .quote-card::before {
+            content: '❝';
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 5rem;
+            color: rgba(156, 39, 176, 0.1);
+            font-family: serif;
+        }
+        .quote-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(156, 39, 176, 0.2);
+        }
+        .quote-text {
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #424242;
+            margin-bottom: 1.2rem;
+            line-height: 1.6;
+            position: relative;
+            z-index: 2;
+        }
+        .quote-explanation {
+            color: #6a1b9a;
+            line-height: 1.7;
+            font-size: 1.05rem;
+            position: relative;
+            z-index: 2;
+        }
+        .quote-explanation strong {
+            color: #4a148c;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 2rem;
+            padding: 0.7rem 1.5rem;
+            background: linear-gradient(135deg, #78909c 0%, #90a4ae 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            background: #607d8b;
+            transform: translateX(-3px);
+        }
+        footer {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            text-align: center;
+            padding: 1.2rem;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        STEWAARD ROBSON [STEAZ14]
+    </header>
+
+    <div class="container">
+        <a href="dashboard.html" class="back-btn">← Back to Home</a>
+
+        <h2 class="page-heading">Emotional Quotes & Meanings</h2>
+
+        <div class="quote-card">
+            <p class="quote-text">"Sometimes the person who tries to keep everyone happy is the loneliest person."</p>
+            <p class="quote-explanation"><strong>Explanation:</strong> Many people carry the burden of making others smile, even when they themselves are hurting. They hide their pain so others don’t worry, but deep inside, they long for someone to ask, "How are you really?"</p>
+        </div>
+
+        <div class="quote-card">
+            <p class="quote-text">"You never know how strong you are until being strong is your only choice."</p>
+            <p class="quote-explanation"><strong>Explanation:</strong> We often doubt our own strength, but when life brings hard times and there’s no one else to lean on, we discover we can endure much more than we ever imagined. Pain teaches us resilience.</p>
+        </div>
+
+        <div class="quote-card">
+            <p class="quote-text">"The hardest part isn’t letting go, but learning to start over."</p>
+            <p class="quote-explanation"><strong>Explanation:</strong> Letting go of someone or something you love is painful, but even harder is facing an empty space and building your life again. Yet, every new beginning comes from some other beginning’s end.</p>
+        </div>
+
+        <div class="quote-card">
+            <p class="quote-text">"Tears are words the heart can’t express."</p>
+            <p class="quote-explanation"><strong>Explanation:</strong> There are feelings too deep, too heavy, or too painful to speak out loud. Crying is the soul’s way of releasing what words cannot carry. It is not weakness — it is honesty.</p>
+        </div>
+
+        <div class="quote-card">
+            <p class="quote-text">"Just because I don’t show it doesn’t mean I don’t feel it."</p>
+            <p class="quote-explanation"><strong>Explanation:</strong> Some people keep their emotions hidden behind a calm face or a smile. They feel everything deeply, but they choose not to burden others. Their silence does not mean emptiness.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Email: stewaardr@gmail.com | Phone: 0768541864</p>
+    </footer>
+</body>
+</html>

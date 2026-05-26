@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Lessons for Beginners</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(120deg, #e3f2fd 0%, #bbdefb 100%);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #1565c0 100%);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .container {
+            flex: 1;
+            padding: 3rem 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .page-heading {
+            text-align: center;
+            color: #1a237e;
+            margin-bottom: 2.5rem;
+            font-size: 2rem;
+        }
+        .lesson {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(21, 101, 192, 0.1);
+            margin-bottom: 2rem;
+            border-left: 5px solid #1976d2;
+            transition: transform 0.3s ease;
+        }
+        .lesson:hover {
+            transform: translateX(5px);
+        }
+        .lesson h3 {
+            color: #1976d2;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        .lesson p, .lesson pre {
+            color: #424242;
+            line-height: 1.7;
+            font-size: 1.05rem;
+        }
+        pre {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e3f2fd 100%);
+            padding: 1.2rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            border-left: 3px solid #2196f3;
+            margin: 1rem 0;
+            font-family: 'Courier New', monospace;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 2rem;
+            padding: 0.7rem 1.5rem;
+            background: linear-gradient(135deg, #78909c 0%, #90a4ae 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            background: #607d8b;
+            transform: translateX(-3px);
+        }
+        .python-icon {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .python-icon img {
+            width: 80px;
+            height: 80px;
+        }
+        footer {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            text-align: center;
+            padding: 1.2rem;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        STEWAARD ROBSON [STEAZ14]
+    </header>
+
+    <div class="container">
+        <a href="dashboard.html" class="back-btn">← Back to Home</a>
+
+        <div class="python-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/1822/1822899.png" alt="Python Logo">
+        </div>
+
+        <h2 class="page-heading">Python Lessons for Beginners</h2>
+
+        <div class="lesson">
+            <h3>Lesson 1: What is Python?</h3>
+            <p>Python is a simple, powerful programming language. It’s great for beginners because its syntax reads like English. You can use it for web development, data science, automation, artificial intelligence, and more. It is one of the most popular languages in the world today.</p>
+        </div>
+
+        <div class="lesson">
+            <h3>Lesson 2: Your First Program</h3>
+            <p>The most basic program prints text to the screen. In Python, it looks like this:</p>
+            <pre>print("Hello, World!")</pre>
+            <p>When you run this code, it will show exactly: <strong>Hello, World!</strong></p>
+        </div>
+
+        <div class="lesson">
+            <h3>Lesson 3: Variables</h3>
+            <p>Variables store data you want to use later. You don’t need to specify the type — Python figures it out automatically:</p>
+            <pre>name = "Stewaard"
+age = 20
+print(name)
+print(age)</pre>
+        </div>
+
+        <div class="lesson">
+            <h3>Lesson 4: Data Types</h3>
+            <p>Common types of data in Python include:</p>
+            <p>• <strong>Strings:</strong> Text, e.g. "Hello World"<br>
+            • <strong>Integers:</strong> Whole numbers, e.g. 5, 100, -30<br>
+            • <strong>Floats (Decimals):</strong> Numbers with points, e.g. 3.14, 99.9<br>
+            • <strong>Booleans:</strong> True or False values</p>
+        </div>
+
+        <div class="lesson">
+            <h3>Lesson 5: If Statements</h3>
+            <p>Make decisions in your code. Do one thing if true, another if false:</p>
+            <pre>score = 80
+if score > 50:
+    print("You passed!")
+else:
+    print("Try again.")</pre>
+        </div>
+    </div>
+
+    <footer>
+        <p>Email: stewaardr@gmail.com | Phone: 0768541864</p>
+    </footer>
+</body>
+</html>
